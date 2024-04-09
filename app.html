@@ -20,6 +20,9 @@
   import BugsnagPerformance from '//d2wy8f7a9ursnm.cloudfront.net/v1/bugsnag-performance.min.js'
   Bugsnag.start({ apiKey: 'b8182bfb0046af116a489dfaff3b0705' })
   BugsnagPerformance.start({ apiKey: 'b8182bfb0046af116a489dfaff3b0705' })
+
+  Bugsnag.notify(new Error('Test error'))
+
 </script>
 </body>
 </html>
